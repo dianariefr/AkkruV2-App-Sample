@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.21buttons:bottom-navigation-view-1.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/bottom-navigation-view-1.0.0.aar/638dbca221fbaeac6c4ab39dcf560caa/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/bottom-navigation-view-1.0.0.aar/638dbca221fbaeac6c4ab39dcf560caa/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.21buttons/bottom-navigation-view/1.0.0/f179fee8580c0d7d9ed2c811b109a0649076d44d/bottom-navigation-view-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

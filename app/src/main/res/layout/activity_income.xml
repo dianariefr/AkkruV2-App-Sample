@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IncomeActivity">
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/expanse_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back_red_24dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="12dp"/>
+
+        <ImageView
+            android:id="@+id/iv_confirm_income"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_check_red"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginEnd="12dp"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tv_namapemasukan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Pemasukan"
+        android:layout_marginStart="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/expanse_toolbar"/>
+
+    <EditText
+        android:id="@+id/et_namapemasukan"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_marginStart="20dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_namapemasukan"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tv_pemasukan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pemasukan"
+        android:layout_marginStart="20dp"
+        app:layout_constraintTop_toBottomOf="@id/et_namapemasukan"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <EditText
+        android:id="@+id/et_pemasukan"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_marginStart="20dp"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@id/tv_pemasukan"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tv_tags2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tags"
+        android:layout_marginStart="20dp"
+        app:layout_constraintTop_toBottomOf="@id/et_pemasukan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/et_tags"/>
+
+    <EditText
+        android:id="@+id/et_tags2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_marginStart="20dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_tags2"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <com.ns.developer.tagview.widget.TagCloudLinkView
+        android:id="@+id/tagv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="4dp"
+        android:layout_marginStart="20dp"
+        app:tagLayoutColor="@color/colorPrimary"
+        app:tagTextColor="@color/white"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintTop_toBottomOf="@id/et_tags2"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

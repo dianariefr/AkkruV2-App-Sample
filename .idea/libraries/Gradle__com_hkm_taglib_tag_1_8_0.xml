@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.hkm.taglib:tag-1.8.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/tag-1.8.0.aar/3cf0ce8ec09271604f375383a07c573b/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/tag-1.8.0.aar/3cf0ce8ec09271604f375383a07c573b/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hkm.taglib/tag/1.8.0/1b67e32c11d6289c8977ec2947323142cb8677c5/tag-1.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

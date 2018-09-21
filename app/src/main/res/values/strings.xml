@@ -1,0 +1,47 @@
+<resources>
+    <string-array name="expanse_category">
+        <item>FOOD</item>
+        <item>TRANSPORTATION</item>
+        <item>UTILITIES</item>
+        <item>MEDICAL</item>
+        <item>PERSONAL CARE</item>
+        <item>EDUCATION</item>
+        <item>OTHER</item>
+    </string-array>
+    <string name="app_name">AKKRU</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_signup_link">New User? Sign Up</string>
+    <string name="insuranceId">Insurance ID</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">last Name</string>
+    <string name="city">City</string>
+    <string name="contactInfo">Contact Info</string>
+    <string name="email">Email</string>
+    <string name="signup">SIGN UP</string>
+    <string name="gladtosee">Glad to see you!</string>
+    <string name="create_account">Create an account</string>
+    <string name="drink_coffee">Drink coffee and prepare your future in one sip</string>
+    <string name="continue_email">CONTINUE WITH EMAIL</string>
+    <string name="login_later">i\'ll login later</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bar">Bar</string>
+    <string name="cafe">Cafe</string>
+    <string name="recomendation">Recomendation for you</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="favorite">Favorite</string>
+    <string name="credit_exchange">Credit Exchange</string>
+    <string name="profile">Profile</string>
+    <string name="hi_widyarindu">Hi , Widyarindu</string>
+    <string name="last_name">Last Name</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="financial_planner">Your Financial Partner</string>
+    <string name="points">points</string>
+    <string name="vouchers">vouchers</string>
+    <string name="toast_no_empty_field">some field still empty</string>
+    <string name="full_name">Full Name</string>
+    <string name="password_conf">Password Confirmation</string>
+    <string name="submit">Submit</string>
+</resources>
